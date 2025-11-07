@@ -1,25 +1,6 @@
 {
-  "title": "ImHer0",
-  "icon": "User",
-  "root": true,
-  "pages": [
-    "index",
-    "---",
-    {
-      "type": "folder",
-      "title": "Wither's Wrath",
-      "icon": "Skull",
-      "root": false,
-      "defaultOpen": false,
-      "pages": ["withers-wrath"]
-    },
-    {
-      "type": "folder", 
-      "title": "Upcoming Pack",
-      "icon": "Cat",
-      "root": false,
-      "defaultOpen": false,
-      "pages": ["upcoming-pack"]
-    }
-  ]
+	"title": "ImHer0",
+	"icon": "User",
+	"root": true,
+	"pages": ["index", "test", "---", "withers-wrath", "upcoming-pack"]
 }
