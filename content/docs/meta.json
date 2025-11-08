@@ -1,6 +1,3 @@
 {
-	"title": "ImHer0",
-	"icon": "User",
-	"root": true,
-	"pages": ["index", "test", "---", "withers-wrath", "upcoming-pack"]
+	"pages": ["imher0", "---", "withers-wrath", "upcoming-pack"]
 }

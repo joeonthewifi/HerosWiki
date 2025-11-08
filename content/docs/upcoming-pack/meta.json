@@ -1,7 +1,6 @@
 {
-  "title": "Upcoming Pack",
-  "icon": "Cat",
-  "pages": [
-    "index"
-  ]
+	"title": "Upcoming Pack",
+	"icon": "Cat",
+	"pages": ["index"],
+	"root": true
 }
