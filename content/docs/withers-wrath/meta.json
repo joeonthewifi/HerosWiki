@@ -1,6 +1,6 @@
 {
 	"title": "Wither's Wrath",
-	"icon": "Skull",
+	"icon": "/icons/witherswrathicon.png",
 	"pages": ["index", "phases", "attacks", "recommended-gear", "changelog"],
 	"root": true
 }

@@ -1,6 +1,6 @@
 {
 	"title": "ImHer0",
-	"icon": "User",
+	"icon": "/icons/sluj.png",
 	"pages": ["index"],
 	"root": true
 }

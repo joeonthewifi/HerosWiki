@@ -1,6 +1,6 @@
 {
 	"title": "Upcoming Pack",
-	"icon": "Cat",
+	"icon": "/icons/modulargolemsicon.png",
 	"pages": ["index"],
 	"root": true
 }
