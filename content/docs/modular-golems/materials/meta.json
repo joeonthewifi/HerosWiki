@@ -1,60 +1,16 @@
 {
-  "title": "Materials",
-  "pages": [
-    {
-      "title": "Copper Golem",
-      "url": "copper",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Copper.png"
-    },
-    {
-      "title": "Gold Golem",
-      "url": "gold",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Gold.png"
-    },
-    {
-      "title": "Diamond Golem",
-      "url": "diamond",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Diamond.png"
-    },
-    {
-      "title": "Emerald Golem",
-      "url": "emerald",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Emerald.png"
-    },
-    {
-      "title": "Netherite Golem",
-      "url": "netherite",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Netherite.png"
-    },
-    {
-      "title": "Lapis Golem",
-      "url": "lapis",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Lapis_Lazuli.png"
-    },
-    {
-      "title": "Redstone Golem",
-      "url": "redstone",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Redstone.png"
-    },
-    {
-      "title": "Quartz Golem",
-      "url": "quartz",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Quartz.png"
-    },
-    {
-      "title": "Amethyst Golem",
-      "url": "amethyst",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Amethyst.png"
-    },
-    {
-      "title": "Resin Golem",
-      "url": "resin",
-      "icon": "https://minecraft.wiki/images/Invicon_Block_of_Resin.png"
-    },
-    {
-      "title": "Super Golem",
-      "url": "super",
-      "icon": "https://minecraft.wiki/images/Invicon_Beacon.png"
-    }
-  ]
+	"title": "Materials",
+	"pages": [
+		"copper",
+		"gold",
+		"diamond",
+		"emerald",
+		"netherite",
+		"lapis",
+		"redstone",
+		"quartz",
+		"amethyst",
+		"resin",
+		"super"
+	]
 }
