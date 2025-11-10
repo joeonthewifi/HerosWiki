@@ -1,3 +1,68 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+@font-face {
+	font-family: 'Upheavel';
+	src: url('/fonts/upheavtt.ttf') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('/fonts/BebasNeue-Regular.ttf') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Minecraft';
+	src: url('/fonts/Minecraft.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.mc-item-count {
+	position: relative;
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	vertical-align: middle;
+	line-height: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.mc-item-count img {
+	display: block;
+	height: 28px !important;
+	width: 28px !important;
+	max-height: 28px;
+	max-width: 28px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* Ensure inline invicon images (e.g., Carved Pumpkin) have no margins */
+img[src*="minecraft.wiki/images/Invicon_"] {
+	margin: 0 !important;
+	padding: 0 !important;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.mc-item-count .count {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: 'Minecraft', monospace;
+	font-size: 13px;
+	color: white;
+	text-shadow: 2px 2px 0 #3f3f3f, 2px 2px 0 #3f3f3f;
+	pointer-events: none;
+	line-height: 1;
+}

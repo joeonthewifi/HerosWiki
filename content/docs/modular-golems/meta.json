@@ -1,0 +1,6 @@
+{
+	"title": "Modular Golems",
+	"icon": "/icons/modulargolemsicon.png",
+	"pages": ["index", "materials", "upgrades", "resource-pack"],
+	"root": true
+}
