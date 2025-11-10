@@ -3,18 +3,48 @@ title: About ImHer0
 description: Welcome — donation links, pack index
 ---
 
-Welcome — I'm ImHer0. This site documents my datapacks: the released "Wither's Wrath" and an upcoming pack.
+import Image from 'next/image'
+
+## Welcome to the Wiki
+
+Here you can find the documentation for my projects.
+
+<Cards>
+	<Card
+		icon={
+			<Image
+				src="/icons/witherswrathicon.png"
+				alt="Wither's Wrath"
+				width={24}
+				height={24}
+			/>
+		}
+		href="/docs/withers-wrath"
+		title="Wither's Wrath"
+		className="text-xl font-upheaval text-[#4f057e]"
+	>
+		<p className="font-sans">Enhanced wither boss fights</p>
+	</Card>
+	<Card
+		icon={
+			<Image
+				src="/icons/modulargolemsicon.png"
+				alt="Modular Golems"
+				width={24}
+				height={24}
+			/>
+		}
+		href="/docs/modular-golems"
+		title="Modular Golems"
+		className="text-xl font-bebasNeue"
+	>
+		<p className="font-sans">Upgrade your iron golems</p>
+	</Card>
+</Cards>
 
 If you enjoy the work and want to support development, you can donate:
 
 - [💸 PayPal Me](https://www.paypal.com/paypalme/ImHer0TM)
 - [☕ Ko-fi](https://ko-fi.com/imher0)
 
-Find the packs below:
-
-- [Wither's Wrath](/docs/withers-wrath)
-- [Upcoming Pack](/docs/upcoming-pack)
-
-More documentation and guides are available in each section — click a pack to get started.
-
-Source: [Original GitHub wiki](https://github.com/ImHer0/witherswrath/wiki)
+Source: [Original GitHub Wiki](https://github.com/ImHer0/witherswrath/wiki)

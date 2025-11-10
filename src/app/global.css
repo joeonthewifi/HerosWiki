@@ -1,3 +1,83 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+@theme inline {
+	--font-bebasNeue: var(--font-bebasNeue);
+	--font-upheaval: var(--font-upheaval);
+	--font-minecraft: var(--font-minecraft);
+}
+
+.mc-item-count {
+	@apply relative inline-block size-7 align-middle leading-none m-0 p-0;
+}
+
+.mc-item-count img {
+	@apply block m-0 p-0;
+	height: 28px !important;
+	width: 28px !important;
+	max-height: 28px;
+	max-width: 28px;
+}
+
+img[src*="minecraft.wiki/images/Invicon_"] {
+	@apply m-0 p-0 inline-block align-middle;
+}
+
+.mc-item-count .count {
+	@apply absolute bottom-0 right-0 text-white pointer-events-none leading-none;
+	font-family: var(--font-minecraft), monospace;
+	font-size: 13px;
+	text-shadow: 2px 2px 0 #3f3f3f, 2px 2px 0 #3f3f3f;
+}
+
+[data-card].text-xl h3 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+
+.combat-title {
+	@apply text-center text-white mb-1.5;
+	font-family: var(--font-minecraft), monospace;
+	font-size: 18px;
+	text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+}
+
+.upgrade-card {
+	--accent: #888;
+	@apply p-3.5 rounded-xl flex flex-col gap-1.5;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.2));
+	border: 2px solid color-mix(in oklab, var(--accent) 40%, #000);
+	box-shadow: 0 0 0 2px #000, 0 6px 12px rgba(0, 0, 0, 0.55);
+}
+
+.upgrade-title {
+	@apply text-center text-white mb-1.5;
+	font-family: var(--font-minecraft), monospace;
+	font-size: 18px;
+	text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0 0 4px #000;
+}
+
+.hue-regen {
+	--accent: #b36bff;
+}
+
+.hue-mending {
+	--accent: #d15cff;
+}
+
+.hue-sticky {
+	--accent: #35d04c;
+}
+
+.hue-flying {
+	--accent: #4fd1ff;
+}
+
+.hue-scale {
+	--accent: #ffb020;
+}
+
+.hue-farming {
+	--accent: #7ad957;
+}
