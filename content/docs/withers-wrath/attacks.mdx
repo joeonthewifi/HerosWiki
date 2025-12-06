@@ -10,14 +10,16 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 ## Standard Attacks
 
 ### Wither Skulls
+
 - **Normal Skulls**: Standard projectiles fired regularly
 - **Explosive Skulls**: Occasionally cause larger explosions
-- **Dangerous (Blue) Skulls**: 
+- **Dangerous (Blue) Skulls**:
   - Bigger explosion radius
   - Deal significantly more damage
   - Leave smoke clouds behind
 
 ### Direct Fire Attack
+
 - Triggers 20 seconds after the Wither is spawned
 - High-speed direct skull shot at a random player
 - Marked as a dangerous skull (slow fire shot)
@@ -28,11 +30,13 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 **Activation**: When Wither reaches 450 HP
 
 ### Behaviour
+
 - Infinitely chase targeted players
 - Track movement and adjust trajectory
 - Continue pursuit until blocked or impact
 
 ### Counters
+
 - Block with shields
 - Hide behind terrain/blocks
 - The skulls cannot pass through solid blocks
@@ -44,17 +48,20 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 **Activation**: When Wither reaches 250 HP (Phase 2)
 
 ### Attack Sequence
+
 1. **Warning Phase**: Wither glows and plays a warning sound
 2. **Delay**: 1.5 second wind-up
 3. **Charge**: Rapidly charges toward nearest player
 4. **Impact**: Explosion damage on contact or collision
 
 ### Effects
+
 - Destroys blocks in path
 - Leaves Wither effect clouds that linger briefly
 - Deals explosion damage to nearby players
 
 ### Phase 3 Upgrade: Triple Dash
+
 - Performs three successive charges instead of one
 - Half-second delay between each dash
 - Each dash is progressively faster
@@ -65,11 +72,13 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 **Activation**: Phase 3 only (100 HP and below)
 
 ### Behaviour
+
 - Quick burst dash toward nearest player
 - Occurs frequently during enraged phase
 - **No direct damage** from the dash itself
 
 ### Strategic Use
+
 - Knocks players high into the air
 - Creates opportunity for Mace counter-attacks
 - Falling damage can be combined with Mace for massive damage output
@@ -79,12 +88,14 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 **Activation**: Phase 3, during skeleton spawning
 
 ### Behaviour
+
 - Triggers whenever a Wither Skeleton is summoned
 - Releases 24 Wither skulls in a downward radial pattern
 - Skulls spread in all directions
 - Each skull explodes after 1 second
 
 ### Danger Level
+
 - Creates area denial
 - Difficult to avoid in close range
 - Combines with other attacks for overwhelming pressure
@@ -94,12 +105,14 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 **Phase 3 Mechanic**
 
 ### New Behaviour
+
 - Skulls shoot upward initially
 - Pause mid-air for 1.5 seconds
 - Then shoot toward the nearest player (per skull)
 - Each skull tracks independently
 
 ### Visual Indicators
+
 - Red glow on attacks
 - Black mist and blue flame/skull particles surround the Wither
 
@@ -110,11 +123,12 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 - When hit by a melee attack, the Wither explodes
 - Launches itself upward
 - Creates distance from melee attackers
-- **Removed in Phase 2** – melee becomes viable
+- **Removed in Phase 2** - melee becomes viable
 
 ## Block Destruction
 
 ### Passive Ability (All Phases)
+
 - Continuously breaks nearby blocks
 - Avoids destroying bedrock (with some edge case fixes)
 - Can destroy obsidian
@@ -124,16 +138,19 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 ## Mob Summoning
 
 ### Wither Skeleton Spawning
+
 - **Phase 1-2**: Spawns one Wither Skeleton (50 HP) every 10 seconds if none within 10 blocks
 - **Phase 3**: Spawning frequency doubles
 - Converted skeletons now carry bows (if they had bows before conversion)
 
 ### Swarm Spawn (150 HP)
+
 - Triggers at 150 HP threshold
 - Spawns multiple smaller Wither Skeletons
 - Designed to counter close-range attackers
 
 ### Blaze Launch (Phase 2 Transition)
+
 - Spins upward during transition to Phase 2
 - Launches Wither Skeletons mounted on Blazes
 - Number varies by player count:
@@ -144,15 +161,19 @@ The Wither uses a variety of attacks that become more dangerous as the fight pro
 ## Environmental Effects
 
 ### Wither Effect Application
+
 - Applied to most nearby entities
 - **Excludes**: Villagers and tamed pets (prevents accidental deaths)
 
 ### Mob Corruption
+
 Continuously converts nearby mobs:
+
 - Skeletons → Wither Skeletons
 - Zombies → Piglins
 
 ### Wither Effect Clouds
+
 - Left behind by charge attacks
 - Linger briefly in the environment
 - Apply Wither effect to players passing through
